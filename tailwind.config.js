@@ -9,13 +9,15 @@ export default {
 
       fontFamily: {
         'sans': ['Roboto Flex'],
+        'heroTitle': ['Bebas Neue'],
+        'heroSubtitle': ['Roboto Condensed'],
       },
 
       colors: {
         'accent': '#0147FF',
         'primary': '#282828',
         'secondary': '#282828',
-        'PrimaryButtonText': '#F7F7F7',
+        'customWhite': '#F7F7F7',
       },
     },
   },
