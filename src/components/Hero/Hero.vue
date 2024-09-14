@@ -14,12 +14,12 @@
           class="block">była wyjątkowym przeżyciem.</span></p>
 
       <div class="flex gap-x-6">
-        <button
-          class="bg-accent px-6 py-3 rounded-lg leading-[22.5px] text-customWhite text-[15px] font-semibold tracking-[-0.02em]">Zobacz
-          zdjęcia</button>
-        <button
-          class="border border-accent px-6 py-3 rounded-lg  leading-[22.5px] text-accent text-[15px] font-semibold tracking-[-0.02em]">Zadzwoń
-          do nas</button>
+        <a href="#gallery"
+          class="bg-accent px-6 py-3 rounded-lg leading-[22.5px] text-customWhite text-[15px] font-semibold tracking-[-0.02em] hover:scale-105 duration-300">Zobacz
+          zdjęcia</a>
+        <a href="tel:123456789"
+          class="border border-accent px-6 py-3 rounded-lg  leading-[22.5px] text-accent text-[15px] font-semibold tracking-[-0.02em] hover:scale-105 duration-300">Zadzwoń
+          do nas</a>
       </div>
     </div>
 
