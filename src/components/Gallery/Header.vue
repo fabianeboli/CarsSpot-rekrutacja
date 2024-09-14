@@ -19,21 +19,3 @@
 </template>
 
 <style scoped></style>
-
-<!-- width: Fixed (1,440px)px;
-height: Hug (678px)px;
-padding: 80px 0px 80px 0px;
-gap: 48px;
-opacity: 0px; -->
-
-<!-- /* Images */
-
-width: 600px;
-height: 446px;
-
-background: url(pexels-pixabay-210019.jpg), url(pexels-pixabay-315938.jpg), #F2F2F2;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0; -->

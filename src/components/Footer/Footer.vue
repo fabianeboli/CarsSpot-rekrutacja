@@ -3,8 +3,7 @@
 </script>
 
 <template>
-  <section
-    class="flex justify-between border-t border-white px-[120px] py-[24px] bg-primary font-secondHeader
+  <section class="flex justify-between border-t border-white px-[120px] py-[24px] bg-primary font-secondHeader
     font-bold text-base text-center text-white">
     <h3>Cars Spot</h3>
     <a class="underline" href="/">
@@ -14,9 +13,3 @@
 </template>
 
 <style scoped></style>
-
-<!-- font-family: Roboto Condensed;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center; -->
