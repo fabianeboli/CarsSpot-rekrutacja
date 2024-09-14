@@ -1,5 +1,4 @@
 <script setup lang='ts'>
-
 </script>
 
 <template>
@@ -9,7 +8,6 @@
     <a class="underline" href="/">
       Polityka prywatności</a>
   </section>
-
 </template>
 
 <style scoped></style>

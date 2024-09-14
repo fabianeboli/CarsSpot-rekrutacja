@@ -17,8 +17,6 @@ const { carType } = defineProps<{ carType: string }>();
       <img v-else class="max-w-[600px] min-h-[446px] w-full sm:h-auto" loading="lazy" :src="`/truck_${i}.png`" :alt="`truck ${i}`" />
     </swiper-slide>
   </Swiper>
-
-
 </template>
 
 <style>
