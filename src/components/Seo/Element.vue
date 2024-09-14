@@ -19,15 +19,14 @@ const formatParagraph = () => {
       Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.
     </h1>
 
-    <p class="font-secondHeader pb-6 text-[14px] leading-[21px]">
+    <p class="font-secondHeader pb-6 text-[14px] leading-[21px] duration-1000 transition-all">
       {{ formatParagraph() }}
     </p>
 
-
     <button @click="toggleExtended"
       class="font-secondHeader flex text-[14px] leading-[21px] gap-x-[3.19px] border-b-[1.5px] pb-1.5">{{ isExtended ?
-        'Zwiń' : 'Rozwiń' }}<img :class="{ 'rotate-180': isExtended }" src="../../assets/arrow_down.svg" alt="arrow down"
-        aria-label="arrow down" /> </button>
+        'Zwiń' : 'Rozwiń' }}<img class="transition duration-300" :class="{ 'rotate-180 duration-300': isExtended }"
+        src="../../assets/arrow_down.svg" alt="arrow down" aria-label="arrow down" /> </button>
   </section>
 </template>
 

@@ -1,4 +1,9 @@
 <script setup lang='ts'>
+import { ref } from 'vue';
+
+const props = defineProps<{ getCurrentActiveTab: () => string}>()
+
+defineEmits('changeTab');
 
 </script>
 
@@ -11,8 +16,8 @@
 
     <nav>
       <ul class="flex gap-x-12 sm:text-[15px] leading-[22.5px] tracking-[-0.02em] font-sans">
-        <li class="text-accent font-semibold border-b border-accent">Samochody osobowe</li>
-        <li>Samochody dostawcze</li>
+        <button @click="$emit('changeTab', 0)" :class="{ 'text-accent font-semibold border-b border-accent': props.getCurrentActiveTab() === 'Samochody osobowe' }">Samochody osobowe</button>
+        <button @click="$emit('changeTab', 1)" :class="{ 'text-accent font-semibold border-b border-accent': props.getCurrentActiveTab() === 'Samochody dostawcze' }">Samochody dostawcze</button>
       </ul>
     </nav>
   </div>
