@@ -9,8 +9,8 @@ export default {
 
       fontFamily: {
         'sans': ['Roboto Flex'],
-        'heroTitle': ['Bebas Neue'],
-        'heroSubtitle': ['Roboto Condensed'],
+        'header': ['Bebas Neue'],
+        'secondHeader': ['Roboto Condensed'],
       },
 
       colors: {
@@ -18,6 +18,8 @@ export default {
         'primary': '#282828',
         'secondary': '#282828',
         'customWhite': '#F7F7F7',
+        'headerTitle': '#1D1D1B',
+        'customGray': '#F1F1F1',
       },
     },
   },
