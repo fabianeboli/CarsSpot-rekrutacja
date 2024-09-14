@@ -10,7 +10,7 @@
     </div>
 
     <nav>
-      <ul class="flex gap-x-12 text-[15px] leading-[22.5px] tracking-[-0.02em] font-sans">
+      <ul class="flex gap-x-12 sm:text-[15px] leading-[22.5px] tracking-[-0.02em] font-sans">
         <li class="text-accent font-semibold border-b border-accent">Samochody osobowe</li>
         <li>Samochody dostawcze</li>
       </ul>

@@ -5,7 +5,7 @@ import Swiper from './Swiper.vue';
 </script>
 
 <template>
-  <section class="px-[88px] pt-[80px]">
+  <section class="px-10 -mt-24 md:px-[88px] md:pt-[80px]">
     <Header />
     <Swiper />
   </section>

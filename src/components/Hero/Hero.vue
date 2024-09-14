@@ -4,7 +4,7 @@
 
 <template>
   <section class="h-[825px]">
-    <div class="flex flex-col justify-center items-start p-[120px]">
+    <div class="flex flex-col justify-center items-start py-20 px-10 md:p-[120px]">
       <h1 class="font-header text-primary text-[76.29px] leading-[83.92px] tracking-[-0.04em] mb-8">Sprzedajemy
         Samochody
         <span class="block">Z Europy</span>
@@ -15,18 +15,18 @@
 
       <div class="flex gap-x-6">
         <button
-          class="bg-accent px-6 py-3 rounded-lg text-base leading-[22.5px] text-customWhite text-[15px] font-semibold tracking-[-0.02em]">Zobacz
+          class="bg-accent px-6 py-3 rounded-lg leading-[22.5px] text-customWhite text-[15px] font-semibold tracking-[-0.02em]">Zobacz
           zdjęcia</button>
         <button
-          class="border border-accent px-6 py-3 rounded-lg text-base leading-[22.5px] text-accent text-[15px] font-semibold tracking-[-0.02em]">Zadzwoń
+          class="border border-accent px-6 py-3 rounded-lg  leading-[22.5px] text-accent text-[15px] font-semibold tracking-[-0.02em]">Zadzwoń
           do nas</button>
       </div>
     </div>
 
     <div class="relative">
-      <img class="absolute h-[404.37px] w-[1064px] right-0 -bottom-36 z-50 " src="../../assets/Hero.png"
+      <img class="hidden xl:block absolute h-[404.37px] w-[1064px] right-0 -bottom-36 z-50 " src="../../assets/Hero.png"
         alt="CarsSpot Banner" aria-label="CarsSpot Banner">
-      <img class="absolute h-[668.05px] w-[671.83px] bottom-0 right-20" src="../../assets/WheelTracks.png"
+      <img class="hidden xl:block absolute h-[668.05px] w-[671.83px] bottom-0 right-20" src="../../assets/WheelTracks.png"
         alt="Wheel Tracks" aria-label="Wheel Tracks image">
     </div>
 

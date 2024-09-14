@@ -3,11 +3,12 @@
 </script>
 
 <template>
-  <section class="grid grid-rows-1 grid-cols-2 gap-x-16">
-    <img class="w-auto h-auto" src="../../assets/car_1.png" alt="car 1" aria-label="Picture of car" />
-    <img class="w-auto h-auto" src="../../assets/car_2.png" alt="car 2" aria-label="Picture of car 2" />
-    <div class="absolute">
-      <img class="relative w-auto h-auto left-[92vw]" src="../../assets/car_3.png" alt="car 3"
+  <section class="grid grid-rows-1 grid-col-1 sm:grid-cols-2 gap-x-16">
+    <img class="w-auto sm:h-auto" src="../../assets/car_1.png" alt="car 1" aria-label="Picture of car" />
+    <img class="hidden sm:block sm:w-auto sm:h-auto" src="../../assets/car_2.png" alt="car 2"
+      aria-label="Picture of car 2" />
+    <div class="absolute hidden md:block">
+      <img class="relative w-auto h-auto left-[92.5vw] " src="../../assets/car_3.png" alt="car 3"
         aria-label="Picture of car 3" />
     </div>
   </section>
